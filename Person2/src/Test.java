@@ -16,12 +16,12 @@ public class Test {
 
 		Person saburo=new Person("saburo");
 		System.out.println(saburo.name);
-		System.out.println(0);
+		System.out.println(saburo.age);
 
 
-		Person 名前なし=new Person(25);
-		System.out.println("名前なし");
-		System.out.println(名前なし.age);
+		Person noname=new Person(25);
+		System.out.println(noname.name);
+		System.out.println(noname.age);
 
 
 		Person hanako=new Person(17,"hanako");
