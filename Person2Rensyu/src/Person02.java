@@ -4,7 +4,7 @@ public class Person02 {
 	public int age =0;
 	public String address=null;
 	public String mail=null;
-	public long telnumber=0;
+	public int telnumber=0;
 
 	//1
 	public Person02(){}
@@ -17,6 +17,28 @@ public class Person02 {
 		this.mail=mail;
 		this.telnumber=telnumber;
 
+	}
+
+	//3
+	public Person02(String name,String address){
+		this.name=name;
+		this.age=0;
+		this.address="岐阜";
+	}
+
+
+	//4
+	public Person02(int age,int telnumber){
+		this.name="名前なし";
+		this.age=age;
+		this.telnumber=telnumber;
+	}
+
+	//5メールなし
+	public Person02(int age, String name){
+		this.name=name;
+		this.age=age;
+		this.mail="メールなし";
 	}
 
 
