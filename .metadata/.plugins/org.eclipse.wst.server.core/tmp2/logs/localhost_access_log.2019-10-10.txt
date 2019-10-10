@@ -34,3 +34,7 @@
 0:0:0:0:0:0:0:1 - - [10/Oct/2019:16:23:54 +0900] "GET /WebProj3/TestAction.action?username=aa&password= HTTP/1.1" 200 9011
 0:0:0:0:0:0:0:1 - - [10/Oct/2019:16:39:24 +0900] "POST /WebProj3/TestAction.action HTTP/1.1" 200 9011
 0:0:0:0:0:0:0:1 - - [10/Oct/2019:16:58:01 +0900] "GET /WebProj3/TestAction.action?username=aaa&password=aaa HTTP/1.1" 200 9011
+127.0.0.1 - - [10/Oct/2019:16:59:28 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [10/Oct/2019:16:59:31 +0900] "GET /WebProj3/ HTTP/1.1" 200 2095
+0:0:0:0:0:0:0:1 - - [10/Oct/2019:16:59:37 +0900] "GET /WebProj3/TestAction.action?username=aaa&password=aaa HTTP/1.1" 200 204
+0:0:0:0:0:0:0:1 - - [10/Oct/2019:16:59:59 +0900] "POST /WebProj3/TestAction.action HTTP/1.1" 200 205
