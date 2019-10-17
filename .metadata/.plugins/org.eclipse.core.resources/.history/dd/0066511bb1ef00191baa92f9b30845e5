@@ -1,0 +1,7 @@
+package com.internousdev.webproj4.dto;
+
+public class LoginDTO {
+	private String username;
+	//22
+
+}
